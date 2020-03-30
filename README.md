@@ -92,6 +92,7 @@ output application/json
  
 
 Steps to configure two-way SSL in Studio:
+---
 
 In case of two-way SSL server needs to validate certificates from clients, then a tls:trust-store element should also be added, with the path field set to the location of the trust store file that contains the certificates of the trusted clients.
 
